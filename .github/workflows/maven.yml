@@ -178,6 +178,7 @@ jobs:
           SERVER_PORT: ${{ secrets.SERVER_PORT }}
           SERVER_USERNAME: ${{ secrets.SERVER_USERNAME }}
           IMAGE_TAG: ${{ github.run_number }}
+          CONTAINER_REPOSITORY: mydockerlab2025/ecommerce
           CONTAINER_NAME: ecommerce
           APP_PORT: ${{ vars.APP_PORT }}
           DOCKERHUB_USERNAME: ${{ secrets.DOCKERHUB_USERNAME }}
